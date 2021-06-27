@@ -1,5 +1,7 @@
 # CS441_Vac_Sim
 
+The main purpose of this exercise is to recognize how inefficient relex agents are. It is very difficult to code every single situation or scenario that the agent is able to come into contact with (which would be called a Rule Table). The primary shortcoming of a reflex agent is its inability to store memory, so it has no idea where it's been, yet is just able to take a "snapshot" of the world in it's current state, for each state that the agent is in.
+
 I really enjoyed this assignment because it showed me how difficult it is to design a solid algorithm for a reflex agent, or more specifically, designing the options in the rule table. That was the most interesting thing to me and having spent the time in building a reflex agent, I see first hand how impractical it is to build. The one thing I was having a hard time with was making the agent read the entire work around them. Since a reflex agent cannot store information, it has to respond to a given “snapshot” of the surrounding environment for each stage it’s in, it makes it very inefficient. Let’s take a look at this scenario where the agent is trapped in between two piles of dirt. I have four priority lists for the agent.
 
 * The first priority list is:
